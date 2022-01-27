@@ -113,7 +113,7 @@
               <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
               <div id="sidebar-menu">
                 <ul class="sidebar-links" id="simple-bar">
-                  <li class="back-btn"><a href="index.html"><img class="img-fluid" src="../assets/images/logo/logo-icon.png" alt=""></a>
+                  <li class="back-btn"><a href="index-2.html"><img class="img-fluid" src="../assets/images/logo/logo-icon.png" alt=""></a>
                     <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
                   </li>
                   <li class="sidebar-main-title">
@@ -141,10 +141,11 @@
                   <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="branches.html"><i data-feather="map-pin"> </i><span>Branches</span></a></li>
                
               
-                     <li class="sidebar-list">
+                    <li class="sidebar-list">
                  <a class="sidebar-link sidebar-title link-nav" href="clients.html"><i data-feather="users"></i><span>Clients</span></a>
                    
                   </li>
+                 
                  
                   <li class="sidebar-list">
                  <a class="sidebar-link sidebar-title link-nav" href="plans.html"><i data-feather="dollar-sign"></i><span>Plans</span></a>
@@ -152,8 +153,7 @@
                   </li>
                 
                 
-                
-                  <li class="sidebar-main-title">
+           <li class="sidebar-main-title">
                     <div>
                       <h6>License & Activation</h6>
                       <p>Activate & Renew Client Licenses</p>
@@ -165,7 +165,8 @@
                   <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="expiredlicense.html"><i data-feather="x-circle"></i><span>Expired Licenses</span></a>
                    
                   </li>
-                  <li class="sidebar-main-title">
+                
+               <li class="sidebar-main-title">
                     <div>
                       <h6>Reports</h6>
                       <p>Reports on Sales</p>
@@ -175,9 +176,6 @@
                   <li class="sidebar-list"><a class="sidebar-link sidebar-title link-nav" href="sales.html"><i data-feather="dollar-sign"></i><span>Sales</span></a>
                
                   </li>
-              
-            
-           
            
                 <hr>
               
@@ -195,13 +193,13 @@
             <div class="page-title">
               <div class="row">
                 <div class="col-6">
-                  <h3>Active Licenses</h3>
+                  <h3>Plans Management</h3>
                 </div>
                 <div class="col-6">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">                                       <i data-feather="home"></i></a></li>
-                    <li class="breadcrumb-item">Licenses</li>
-                    <li class="breadcrumb-item active">Active Licenses</li>
+                    <li class="breadcrumb-item">Plans</li>
+                    <li class="breadcrumb-item active">Plan Management</li>
                   </ol>
                 </div>
               </div>
@@ -209,59 +207,85 @@
           </div>
           <!-- Container-fluid starts-->
           <div class="container-fluid">
+            <div class="row">
+  <div class="col-10"> </div>
+ 
+    <div class="col-2 text-end">          
+                       <button class="btn btn-primary  btn-air-primary" type="button" data-bs-toggle="modal" data-bs-target="#addbranch"><i class="fa fa-plus-circle"></i>   New Plan</button> </div>
+
+</div>
+      
             <div class="edit-profile">
+            </br>
               <div class="row">
               
-                <div class="col-md-12">
+                <div class="col-md-4">
                   <div class="card">
-                    <div class="card-header ">
-                   <span class="text-end "><button class="btn btn-outline-secondary  btn-air-primary" type="button" ><i class="fa fa-download"></i> Export</button>
-                     </span>   
-                    
-                    </div>
-                    <div class="table-responsive add-project">
-                      <table class="table card-table table-vcenter text-nowrap">
-                        <thead>
-                          <tr>
-                            <th>Serial #</th>
-                             <th>Customer Name</th>
-                              <th>TIN #</th>
-                            <th>Branch</th>
-                             <th>Phone</th>
-                          
-                               <th>Status</th>
-                              
-                            <th>Action</th>
-                      
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td><a class="text-inherit" href="#">06TZ010007403 </a></td>
-                            <td>Justin Jonathani Ezekiel </td>
-                              <td>113-596-953 </td>
-                                <td>Dodoma </td>
-                                  <td>0717 216 510  </td>
-                                 
-                          <td c;><span class=" badge badge-primary">Active</span></td>
-                   <td></td>
-                            
-                          </tr>
-                       <tr>
-                            <td><a class="text-inherit" href="#">06TZ010007404 </a></td>
-                            <td>Justin Jonathani Ezekiel </td>
-                              <td>113-596-953 </td>
-                                <td>Dodoma </td>
-                                  <td>0717 216 510  </td>
-                                 
-                          <td c;><span class=" badge badge-danger">Expires in 5 days</span></td>
-                     
-                               <td><a class="icon" href="javascript:void(0)"></a><a class="btn btn-primary btn-sm btn-air-primary" ><i class="fa fa-bell"></i> Send a Reminder</a></td>
-                          </tr>
+                    <div class="card-header  ">
+<div class="row">
+  <div class="col-4"> <h4>Basic Plan</h4></div>
+  <div class="col-4"></div>
+    <div class="col-4">          
+                       <button class="btn btn-primary  btn-air-primary" type="button" data-bs-toggle="modal" data-bs-target="#addbranch"><i class="fa fa-edit"></i>   Edit</button> </div>
+</div>
+                
                   
-                        </tbody>
-                      </table>
                     </div>
+                    <div class="card-body">
+                  <ul style=" list-style-type: '\2713' !important;">
+  <li>&nbsp;Receipt printing</li>
+  <li>&nbsp;Manage single store</li>
+  <li>&nbsp;Multi-users (Two users)</li>
+</ul>  
+
+                    </div>
+                
+                  </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="card">
+                    <div class="card-header  ">
+<div class="row">
+  <div class="col-6"> <h5>Standard Plan</h></div>
+  <div class="col-2"></div>
+    <div class="col-4">          
+                       <button class="btn btn-primary  btn-air-primary" type="button" data-bs-toggle="modal" data-bs-target="#addbranch"><i class="fa fa-edit"></i>   Edit</button> </div>
+</div>
+                
+                  
+                    </div>
+                    <div class="card-body">
+                  <ul style=" list-style-type: '\2713' !important;">
+  <li>&nbsp;Import Products</li>
+  <li>&nbsp;Manage multiple stores/branches (2 to 3 stores)</li>
+  <li>&nbsp;Multi-users (6 users)</li>
+</ul>  
+
+                    </div>
+                
+                  </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="card">
+                    <div class="card-header  ">
+<div class="row">
+  <div class="col-6"> <h4>Premium Plan</h4></div>
+  <div class="col-2"></div>
+    <div class="col-4">          
+                       <button class="btn btn-primary  btn-air-primary" type="button" data-bs-toggle="modal" data-bs-target="#addbranch"><i class="fa fa-edit"></i>   Edit</button> </div>
+</div>
+                
+                  
+                    </div>
+                    <div class="card-body">
+                  <ul style=" list-style-type: '\2713' !important;">
+  <li>&nbsp;Manage multiple store/branches (unlimited stores)</li>
+  <li>&nbsp;Multi-users (unlimited)</li>
+
+</ul>  
+
+                    </div>
+                
                   </div>
                 </div>
               </div>
@@ -270,14 +294,82 @@
           
           <!-- Container-fluid Ends-->
         </div>
-          
-     
+            <!-- Edit model-->
+                  <div class="modal fade" id="edituser" tabindex="-1" role="dialog" aria-labelledby="edituser" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">Edit Branch</h5>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                       <form class="form-space theme-form ">
+                              <div class="row">
+                          <div class="col-6">
+                              <label class="col-form-label pt-0" for="fname">Branch Name</label>
+                            <input class="form-control" type="text" placeholder="eg HQ">
+                          </div>
+                          <div class="col-6">
+                              <label class="col-form-label pt-0" for="lname">Region</label>
+                            <select class="js-example-basic-single col-sm-12">
+                         
+                            <option value="AL">Arusha</option>
+                            <option value="WY">Bagamoyo</option>
+                     
+                       
+                            <option value="WY">Chato</option>
+                            <option value="WY">Dodoma</option>
+                            <option value="WY">Geita</option>
+                     
+                        </select>
+                          </div>
+                       
+                        </div>
+                              <div class="row">
+                          <div class="col-6">
+                              <label class="col-form-label pt-0" for="phone">Phone</label>
+                            <input class="form-control" type="text" placeholder="eg 255 657899089">
+                          </div>
+                          <div class="col-6">
+                              <label class="col-form-label pt-0" for="phone">Address</label>
+                            <input class="form-control" type="text" placeholder="eg Mikocheni">
+                          </div>
+                      
+                        </div>
+                        </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-danger btn-air-danger" type="button" data-bs-dismiss="modal">Cancel</button>
+                            <button class="btn btn-primary btn-air-primary" type="button">Save</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Edit model-->
+         <!-- Deactivate model-->
+                     <div class="modal fade" id="deactivatebranch" tabindex="-1" role="dialog" aria-labelledby="deactivatebranch" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">Deactivate Morogoro Branch</h5>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Are you sure you want to deactivate Morogoro Branch?</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-danger btn-air-danger" type="button" data-bs-dismiss="modal">No</button>
+                            <button class="btn btn-primary btn-air-primary" type="button">Yes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
         <!-- footer start-->
         <footer class="footer">
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-12 footer-copyright text-center">
-                <p class="mb-0">Copyright 2021 © SofNet Technologies Limited </p>
+                <p class="mb-0">Copyright 2022 © SofNet Technologies Limited </p>
               </div>
             </div>
           </div>
